@@ -70,6 +70,5 @@ volumes:
   hadoop_datanode:
   hadoop_historyserver:
 networks:
-  default:
-    external:
-      name: main-network
+  main-network:
+    driver: bridge
